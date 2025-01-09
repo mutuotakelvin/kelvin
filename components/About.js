@@ -27,7 +27,7 @@ const About = () => {
             transition={{ duration: 0.1 }}
 
           >
-            Software developer with 1+ year at KaziQuest. Strong computer science foundation and web development skills from past
+            Software developer with 2.5+ year at KaziQuest. Strong computer science foundation and web development skills from past
             roles at Pro Innovation and Technologies and Metraverse Safaris. Passionate about technology, demonstrated by
             contributions to hackathons in cybersecurity, metaverse and blockchain. Seeking to leverage skills and drive to make a
             meaningful contribution in the tech industry.
