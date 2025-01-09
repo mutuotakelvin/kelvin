@@ -31,6 +31,14 @@ export const projects = [
       link: "https://bobaknews.info",
     },
     {
+      title: "KenyaAz",
+      subtitle: "React,Nextjs,Node, Postgresql, zustand",
+      description:
+        "KenyaAZ is a search engine that connects you to Kenyan-owned shops and businesses in Arizona.",
+      image: "/Screenshot from 2025-01-09 21-07-57.png",
+      link: "https://kenyaaz.vercel.app/",
+    },
+    {
       title: "ScanAttend",
       subtitle: "React Native, Django, Postgresql, zustand, QR code",
       description:
