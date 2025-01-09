@@ -27,7 +27,7 @@ export const projects = [
       subtitle: "React, Next, Sanity",
       description:
         "Bobak News is a dynamic platform offering insightful articles on programming, philosophy, technology, and more. With a focus on delivering the latest stories, opinions, and updates from around the world, it serves as your daily dose of news and views.",
-      image: "/scanattend.png",
+      image: "/Screenshot from 2025-01-09 20-57-22.png",
       link: "https://bobaknews.info",
     },
     {
