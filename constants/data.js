@@ -20,7 +20,15 @@ export const projects = [
       description:
         "A web application that allows companies to manage their hiring process from job posting to hiring.",
       image: "/kaziquest.png",
-      link: "https://app.kaziquest.com/",
+      link: "https://alpha-test.kaziquest.com/auth/register",
+    },
+    {
+      title: "Bobaknews",
+      subtitle: "React, Next, Sanity",
+      description:
+        "Bobak News is a dynamic platform offering insightful articles on programming, philosophy, technology, and more. With a focus on delivering the latest stories, opinions, and updates from around the world, it serves as your daily dose of news and views.",
+      image: "/scanattend.png",
+      link: "https://bobaknews.info",
     },
     {
       title: "ScanAttend",
