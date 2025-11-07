@@ -110,11 +110,11 @@ export const projects = [
     "React",
     "Next.js",
     "Node",
-    "GraphQL",
+    "Laravel",
+    "Docker",
     "Figma",
     "python",
     "Django",
-    "Angular2+",
     "Vue",
     "Tailwindcss",
     "Nuxt"
