@@ -9,10 +9,10 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font leading-[1.5] sm:text-4xl text-3xl mb-4 font-medium text-white">
+    <section id="about" className="py-8">
+      <div className="container mx-auto flex px-5 md:px-10 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
+          <h1 className="title-font leading-relaxed sm:text-4xl text-3xl mb-4 font-medium text-white">
             <TypeAnimation
               sequence={[
                 'Hi, I\'m Kelvin.', 1000,
@@ -27,7 +27,7 @@ const About = () => {
             transition={{ duration: 0.1 }}
 
           >
-            Software developer with 2.5+ year at KaziQuest. Strong computer science foundation and web development skills from past
+            Software developer with 3+ year at KaziQuest. Strong computer science foundation and web development skills from past
             roles at Pro Innovation and Technologies and Metraverse Safaris. Passionate about technology, demonstrated by
             contributions to hackathons in cybersecurity, metaverse and blockchain. Seeking to leverage skills and drive to make a
             meaningful contribution in the tech industry.
@@ -112,11 +112,11 @@ const About = () => {
           
         >
           <Image
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded max-h-[700px]"
             alt="hero"
-            src="/me.png"
+            src="/kelvin.jpeg"
             width={920}
-            height={600}
+            height={150}
           />
         </motion.div>
       </div>
