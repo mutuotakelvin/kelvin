@@ -14,7 +14,7 @@ const technologies = [
   { name: 'Django', icon: 'https://cdn.simpleicons.org/django/092E20' },
   { name: 'Vue.js', icon: 'https://cdn.simpleicons.org/vuedotjs/4FC08D' },
   { name: 'Tailwind CSS', icon: 'https://cdn.simpleicons.org/tailwindcss/06B6D4' },
-  { name: 'Nuxt', icon: 'https://cdn.simpleicons.org/nuxtdotjs/00DC82' },
+  { name: 'Nuxt', icon: 'https://nuxt.com/assets/design-kit/icon-green.svg' },
 ];
 
 const Technologies = () => (
