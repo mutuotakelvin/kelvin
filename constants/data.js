@@ -15,52 +15,43 @@ export const links = [
 
 export const projects = [
     {
-      title: "Kaziquest",
-      subtitle: "ATS, HRM",
-      description:
-        "A web application that allows companies to manage their hiring process from job posting to hiring.",
-      image: "/kaziquest.png",
-      link: "https://alpha-test.kaziquest.com/auth/register",
-    },
-    {
-      title: "Bobaknews",
-      subtitle: "React, Next, Sanity",
-      description:
-        "Bobak News is a dynamic platform offering insightful articles on programming, philosophy, technology, and more. With a focus on delivering the latest stories, opinions, and updates from around the world, it serves as your daily dose of news and views.",
-      image: "/Screenshot from 2025-01-09 20-57-22.png",
-      link: "https://bobaknews.info",
-    },
-    {
-      title: "KenyaAz",
+      title: "KenyaDirectory",
       subtitle: "React,Nextjs,Node, Postgresql, zustand",
       description:
-        "KenyaAZ is a search engine that connects you to Kenyan-owned shops and businesses in Arizona.",
+        "KenyaAZ is a search engine that connects you to Kenyan-owned shops and businesses from all over the world.",
       image: "/Screenshot from 2025-01-09 21-07-57.png",
+      colSpan: 2,
+      hasPersistentHover: true,
       link: "https://kenyaaz.vercel.app/",
+      tags: ["React", "Nextjs", "Node", "Postgresql", "zustand"],
+
     },
     {
-      title: "ScanAttend",
-      subtitle: "React Native, Django, Postgresql, zustand, QR code",
+      title: "Migori Project Portal",
+      subtitle: "County infrastructure transparency platform",
       description:
-        "A mobile application that allows students to attend exams using QR code. Eliminating the need for manual attendance.",
-      image: "/scanattend.png",
-      link: "https://github.com/mutuotakelvin/scanattendfrontend",
+        "Official Migori County portal showcasing development projects across all sub-counties under the vision of shared progress.",
+      image: "/migori-project.png",
+      link: "https://projects.migori.go.ke/",
+      tags: ["Django", "Next.js", "React", "Tailwind CSS", "Docker", "CI/CD"],
     },
     {
-      title: "About Spaces",
-      subtitle: "React, css",
+      title: "Bobakdevs",
+      subtitle: "Digital product studio presence",
       description:
-        "A company website that deals with interior design and architecture.",
-      image: "/aboutspaces.png",
-      link: "https://aboutspaces.vercel.app/",
+        "Agency site for Bobakdevs highlighting services, portfolio, and process with a modern stack and polished design system.",
+      image: "/bobakdevs.png",
+      link: "https://bobakdevs.com/",
+      tags: ["Laravel", "React", "Inertia.js", "Docker", "CI/CD", "Tailwind CSS", "shadcn/ui"],
     },
     {
-      title: "PriceBetter",
-      subtitle: "Next.js, Tailwindcss, web scraping",
+      title: "AI Preacher",
+      subtitle: "AI-assisted sermon and verse generator",
       description:
-        "Aweb app that allows users to track amazon prices and get notified when the price drops.",
-      image: "/pricebetter.png",
-      link: "https://www.pricebetter.shop/",
+        "Generates Bible-inspired sermons, verses, and stories tailored to user topics using conversational AI for reflection and encouragement.",
+      image: "/ai-preacher.png",
+      link: "https://aipreacher.bobakdevs.com/",
+      tags: ["Next.js", "Gemini API"],
     },
     {
       title: "Markdown Notes App",
@@ -69,6 +60,7 @@ export const projects = [
         "A note taking application that allows users to take notes in Markdown.",
       image: "/project-2.gif",
       link: "https://notesapp-chi.vercel.app/",
+      tags: ["React","Nanoid","react-mde","react-split","showdown"],
     },
     {
       title: "AGENTSULE SHELTER",
@@ -77,6 +69,7 @@ export const projects = [
         "Real estate website for agentsulerealestate.com. A website that allows users to view properties and contact the agents.",
       image: "/agentsule.png",
       link: "https://agentsulerealestate.vercel.app/",
+      tags: ["Next"],
     },
     {
       title: "TICTACTOE",
@@ -85,6 +78,8 @@ export const projects = [
         "A titctactoe game app",
       image: "/project-4.gif",
       link: "https://titactoegame.surge.sh/",
+      tags: ["React APP"],
+      colSpan: 2,
     },
   ];
   
