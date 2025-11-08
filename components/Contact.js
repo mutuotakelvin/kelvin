@@ -24,8 +24,8 @@ const Contact = () => {
                 ADDRESS
               </h2>
               <p className="mt-1 text-gray-300">
-                Kenya <br />
-                Machakos,
+                Nairobi, <br />
+                Kenya
               </p>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/2 px-4 sm:px-6 mt-4 lg:mt-0">
